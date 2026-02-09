@@ -68,6 +68,7 @@ jobs:
             cd ${{ secrets.VPS_APP_PATH }}
             git config --global --add safe.directory ${{ secrets.VPS_APP_PATH }}
             git pull origin main
+            export COMPOSER_ALLOW_SUPERUSER=1
             composer install --no-interaction --prefer-dist --optimize-autoloader
             npm install --legacy-peer-deps
             npm run build
