@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::redirect('/', '/dashboard');
 Route::get('/map', [MapController::class, 'index'])->name('map');
 Route::get('/education', [EducationController::class, 'index'])->name('education');
 Route::get('/talent', [TalentController::class, 'index'])->name('talent');
@@ -77,3 +78,7 @@ Route::get('/image', function () {
 Route::get('/videos', function () {
     return Inertia::render('UIElements/Videos');
 })->name('videos');
+
+Route::fallback(function () {
+    return Inertia::render('Errors/Error404');
+});
