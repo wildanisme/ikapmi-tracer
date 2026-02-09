@@ -34,7 +34,7 @@
                 />
                 <img
                     v-show="!isExpandedOrHovered"
-                    src="/images/logo/logo-icon.svg"
+                    src="/images/logo/logo-ikapmi.svg"
                     alt="Logo"
                     width="32"
                     height="32"

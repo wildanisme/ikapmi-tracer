@@ -87,8 +87,8 @@
                 </button>
 
                 <Link href="/" class="xl:hidden">
-                    <img class="dark:hidden" src="/images/logo/logo.svg" alt="Logo" />
-                    <img class="hidden dark:block" src="/images/logo/logo-dark.svg" alt="Logo" />
+                    <img class="dark:hidden" src="/images/logo/logo-ikapmi.png" alt="Logo" />
+                    <img class="hidden dark:block" src="/images/logo/logo-ikapmi-dark.png" alt="Logo" />
                 </Link>
 
                 <button
