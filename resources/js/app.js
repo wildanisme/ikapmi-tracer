@@ -12,7 +12,7 @@ window.ApexCharts = ApexCharts;
 window.flatpickr = flatpickr;
 window.FullCalendar = Calendar;
 
-const titleSuffix = 'TailAdmin - Laravel Tailwind CSS Admin Dashboard Template';
+const titleSuffix = 'IKAPMI Centre';
 
 const runPageScripts = () => {
     initPageScripts();
