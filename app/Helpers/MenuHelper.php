@@ -9,7 +9,7 @@ class MenuHelper
         return [
             [
                 'icon' => 'dashboard',
-                'name' => 'Dashboard',
+                'name' => 'Dashboard Update',
                 'path' => '/dashboard',
             ],
             [
