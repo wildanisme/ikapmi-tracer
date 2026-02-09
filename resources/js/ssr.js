@@ -4,7 +4,7 @@ import { renderToString } from '@vue/server-renderer';
 import { createSSRApp, h } from 'vue';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 
-const titleSuffix = 'TailAdmin - Laravel Tailwind CSS Admin Dashboard Template';
+const titleSuffix = 'IKAPMI Centre';
 
 createServer((page) =>
     createInertiaApp({
