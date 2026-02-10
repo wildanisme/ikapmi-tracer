@@ -7,8 +7,8 @@
         "dev": "vite"
     },
     "devDependencies": {
-        "@vitejs/plugin-vue": "^5.2.0",
         "@tailwindcss/vite": "^4.1.12",
+        "@vitejs/plugin-vue": "^6.0.4",
         "axios": "^1.11.0",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^2.0.0",
@@ -16,23 +16,23 @@
         "vite": "^7.0.4"
     },
     "dependencies": {
-        "@inertiajs/vue3": "^2.1.5",
-        "@headlessui/vue": "^1.7.23",
-        "@vue/server-renderer": "^3.4.0",
-        "vue": "^3.4.0",
         "@floating-ui/dom": "^1.7.4",
         "@fullcalendar/core": "^6.1.19",
         "@fullcalendar/daygrid": "^6.1.19",
         "@fullcalendar/interaction": "^6.1.19",
         "@fullcalendar/list": "^6.1.19",
         "@fullcalendar/timegrid": "^6.1.19",
+        "@headlessui/vue": "^1.7.23",
+        "@inertiajs/vue3": "^2.1.5",
         "@popperjs/core": "^2.11.8",
+        "@vue/server-renderer": "^3.4.0",
         "alpinejs": "^3.14.9",
         "apexcharts": "^5.3.5",
         "flatpickr": "^4.6.13",
         "jsvectormap": "^1.7.0",
         "leaflet": "^1.9.4",
         "prismjs": "^1.30.0",
-        "swiper": "^12.0.3"
+        "swiper": "^12.0.3",
+        "vue": "^3.4.0"
     }
 }
