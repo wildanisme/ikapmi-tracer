@@ -27,7 +27,7 @@
                 <img
                     v-show="isExpandedOrHovered"
                     class="hidden dark:block"
-                    src="/images/logo/logo-imapmi-dark.png"
+                    src="/images/logo/logo-ikapmi-dark.png"
                     alt="Logo"
                     width="150"
                     height="40"
